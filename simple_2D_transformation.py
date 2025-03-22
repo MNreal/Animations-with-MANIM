@@ -32,7 +32,7 @@ class FirstAnimation(Scene):
         self.play(Transform(circle, square))
         self.wait(1)	
 
-        #Fade Out Square, add the Text "WOW" and wait 1 s
+        #Fade Out Square, add the Text "#PACEHOLDER" and wait 1 s
         self.play(FadeOut(circle))
         self.play(Write(text))
         self.wait(1)
